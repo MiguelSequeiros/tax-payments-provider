@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-lsn7wy!k)h)h=@rp9b3kxe2@s79ph!3#)cs21$vc=s_^3vh#y2
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # third-party apps
+    'rest_framework',
+    'django_filters',
     # local apps
     'billing.apps.BillingConfig',	# billing app
 ]
