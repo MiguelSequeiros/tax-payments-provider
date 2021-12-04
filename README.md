@@ -44,7 +44,7 @@ Si no cambió ningún parámetro de configuración, los endpoints están expuest
 localhost:8000/api/payables/
 ```
 En el caso de la entidad payables, podemos filtrar añadiendole una query string:
-?servicio=<id del servicio>
+?service=<id del servicio>
 
 | id | servicio |
 |----|----------|
